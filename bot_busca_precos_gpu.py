@@ -31,7 +31,7 @@ except Exception:
 
 BASE_DIR = Path(__file__).resolve().parent
 DB_PATH = Path(os.getenv("PRICE_DB_PATH", str(BASE_DIR / "precos_hardware.db")))
-TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "8663600117:AAFSOf2CC_xXOIr5oq97yo5XE11Z4OoTQgg")
+TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "token_bot_aqui")
 
 HEADERS = {
     "User-Agent": (
